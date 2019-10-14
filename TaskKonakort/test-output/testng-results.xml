@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53997" started-at="2019-10-14T16:40:07Z" finished-at="2019-10-14T16:41:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53997" started-at="2019-10-14T16:40:07Z" finished-at="2019-10-14T16:41:01Z">
+      <class name="com.atmecs.TaskKonakart.TaskKonakort.SearchValidation">
+        <test-method status="PASS" signature="startReports()[pri:0, instance:com.atmecs.TaskKonakart.TaskKonakort.SearchValidation@18eed359]" name="startReports" is-config="true" duration-ms="140" started-at="2019-10-14T16:40:07Z" finished-at="2019-10-14T16:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReports -->
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.atmecs.TaskKonakart.TaskKonakort.SearchValidation@18eed359]" name="initializeBrowser" is-config="true" duration-ms="10302" started-at="2019-10-14T16:40:07Z" finished-at="2019-10-14T16:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="searchValidation()[pri:0, instance:com.atmecs.TaskKonakart.TaskKonakort.SearchValidation@18eed359]" name="searchValidation" duration-ms="43129" started-at="2019-10-14T16:40:18Z" finished-at="2019-10-14T16:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchValidation -->
+        <test-method status="PASS" signature="getReport(org.testng.ITestResult)[pri:0, instance:com.atmecs.TaskKonakart.TaskKonakort.SearchValidation@18eed359]" name="getReport" is-config="true" duration-ms="4" started-at="2019-10-14T16:41:01Z" finished-at="2019-10-14T16:41:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchValidation status=SUCCESS method=SearchValidation.searchValidation()[pri:0, instance:com.atmecs.TaskKonakart.TaskKonakort.SearchValidation@18eed359] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReport -->
+        <test-method status="PASS" signature="getClose()[pri:0, instance:com.atmecs.TaskKonakart.TaskKonakort.SearchValidation@18eed359]" name="getClose" is-config="true" duration-ms="393" started-at="2019-10-14T16:41:01Z" finished-at="2019-10-14T16:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getClose -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.atmecs.TaskKonakart.TaskKonakort.SearchValidation@18eed359]" name="browserClose" is-config="true" duration-ms="2101" started-at="2019-10-14T16:41:01Z" finished-at="2019-10-14T16:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.atmecs.TaskKonakart.TaskKonakort.SearchValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
