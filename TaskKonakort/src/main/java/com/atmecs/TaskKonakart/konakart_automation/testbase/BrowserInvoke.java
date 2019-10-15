@@ -43,10 +43,10 @@ url="https://www.konakart.com/konakart/Welcome.action";
 
 		else if (browser.equalsIgnoreCase("IE")) {
 			System.setProperty("webdriver.ie.driver", FilePath.IE_FILE);
-			driver = new InternetExplorerDriver();
 			DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
 			capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
 			capabilities.setCapability(InternetExplorerDriver.INITIAL_BROWSER_URL, url);
+			driver = new InternetExplorerDriver(capabilities);
 			capabilities.setCapability("requireWindowFocus", true);
 			log.info("IE browser opens");
 		}
